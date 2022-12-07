@@ -41,9 +41,11 @@ $replacer = new EnvReplacer('/etc/php/8.1/apache/php.ini');
 $replacer->apply();
 ```
 
-Result in file:
+Resulting file:
 
 ```ini
+...
 upload_max_filesize = 64M
 max_file_uploads = 20
+...
 ```
