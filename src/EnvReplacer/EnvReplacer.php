@@ -1,6 +1,6 @@
 <?php
 
-namespace Legolabs\Utils;
+namespace Legolabs\Utils\EnvReplacer;
 
 
 class EnvReplacer
