@@ -68,7 +68,7 @@ class EnvReplacer
 	private function get_markers(string $file_content) : array|false
 	{
 		// Regular expression matches for markers like __MARKER__
-		$regexp = '/__[A-Z0-9_]{5,20}__/';
+		$regexp = '/__[A-Z0-9_]{5,30}__/';
 
         // Get all markers matching regexp
 		$res = preg_match_all($regexp, $file_content, $markers);
