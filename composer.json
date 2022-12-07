@@ -1,0 +1,20 @@
+{
+    "name": "legolabs/phputils",
+    "description": "Useful PHP classes, matching various purposes",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Andrea Gardoni",
+            "email": "andrea.gardoni@legolabs.it"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Legolabs\\Utils\\": "src/"
+        }
+    }
+}
